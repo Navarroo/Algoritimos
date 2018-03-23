@@ -102,34 +102,53 @@
 # else:
 #     print(c)
 #---------------------------------------------------------------
-print("Exercicio 9")
+# print("Exercicio 9")
+#
+# a = int(input("Digite um número: "))
+# b = int(input("Digite um número: "))
+# c = int(input("Digite um número: "))
+#
+# if (a > b and b > c):
+#      print(a, b, c)
+#
+# elif (b > a and a > c):
+#      print(b, a, c)
+#
+# elif (a > b and c > b):
+#     print(a, c, b)
+#
+# elif (b > c and c > a):
+#     print(b, c, a)
+#
+# elif (c > a and a > b):
+#     print(c, a, b)
+#
+# elif (c > b and b > a):
+#     print (c, b, a)
+#
+# else:
+#     print("")
+#----------------------------------------------------------------
+print("Exercicio 10")
 
-a = int(input("Digite um número: "))
-b = int(input("Digite um número: "))
-c = int(input("Digite um número: "))
+print("========================")
+print("     Menu de opções    ")
+print("========================")
+print("[1] - Somar 2 números")
+print("[2] - Potência de um número")
+print("[3] - Raiz de grau N")
+print(" ")
+res = int(input("Opção: "))
 
-if (a > b and b > c):
-     print(a, b, c)
+if res == 1:
+    a = int(input("Digite um número: "))
+    b = int(input("Digite mais um número: "))
+    print(a + b)
 
-elif (b > a and a > c):
-     print(b, a, c)
-
-elif (a > b and c > b):
-    print(a, c, b)
-
-elif (b > c and c > a):
-    print(b, c, a)
-
-elif (c > a and a > b):
-    print(c, a, b)
-
-elif (c > b and b > a):
-    print (c, b, a)
-
-else:
+elif res == 2:
     print("")
 
-
-
- else:
-     print(c, a, )
+elif res == 3:
+    print("")
+else:
+    print("ERRO: A opção não se encontra defenida ! tente novamente!")
