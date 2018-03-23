@@ -145,10 +145,27 @@ if res == 1:
     b = int(input("Digite mais um número: "))
     print(a + b)
 
-elif res == 2:
-    print("")
-
 elif res == 3:
-    print("")
+    a = input("Digite o valor de A: ")
+    a = float(a)
+
+    b = input("Grau da raiz:")
+    b = int(b)
+
+    x = a**(1/b)
+
+    print(x)
+
+    print("O resultado é", x)
+
+    print("A raiz de grau", b, "de", a, "é", x)
+
+elif res == 2:
+    a = int(input("Digite um número: "))
+    b = int(input("Digite a potência: "))
+    c = a**b
+
+    print(c)
+    
 else:
     print("ERRO: A opção não se encontra defenida ! tente novamente!")
