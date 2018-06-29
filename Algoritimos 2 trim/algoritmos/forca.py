@@ -42,7 +42,7 @@ print("|              ")
 print("|              ")
 print("|              ")
 print("|")
-
+# No ceu tem pão
 print("-------------  ")
 print("|           |  ")
 print("|         (º-º)")
@@ -52,7 +52,7 @@ print("|              ")
 print("|              ")
 print("|")
 
-print("Você Perdeu... (º_º)")
+print("Você Perdeu... (õ_õ)")
 print("-------------       ")
 print("|           |       ")
 print("|         (x_x)     ")
