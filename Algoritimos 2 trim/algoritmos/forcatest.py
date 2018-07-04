@@ -1,3 +1,5 @@
+# https://killdragonsblog.wordpress.com/2016/05/18/projetando1-joguinho-de-forca-dinamico-em-python-como-foi-o-processo/
+
 palavras_jogo = ["abacaxi",
                  "elefante",
                  "tomate",
